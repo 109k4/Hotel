@@ -1,0 +1,182 @@
+.patrick_wrap {
+    height: 485px;
+    max-width: 1440px;
+
+    margin: 0 auto;
+
+    background: url('../../img/images/patrik_nelson.jpg') center no-repeat;
+
+}
+
+.patrick {
+    margin-top: 140px;
+
+    height: 520px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.slider {
+    position: relative;
+}
+
+.slide {
+    color: white;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.patrick_head {
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.patrick_text {
+    margin-top: 22px;
+
+    width: 50%;
+    height: 157px;
+    font-size: 14px;
+    line-height: 28px;
+
+}
+
+.stars {
+    margin-top: -40px;
+
+    width: 100px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.stars img {
+    width: 16px;
+    height: 16px;
+}
+
+.prev {
+    background-color: transparent;
+    border: none;
+
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 57%;
+    left: 15%;
+
+    z-index: 1;
+}
+
+.next {
+    background-color: transparent;
+    border: none;
+
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 57%;
+    right: 15%;
+
+    z-index: 1;
+}
+
+/* media---------------------------------------------------------------- */
+@media (max-width: 928px) {
+    .patrick_text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .slide {
+        height: 520px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+
+    .patrick {
+        margin-top: 0px;
+    }
+
+    .prev {
+        top: 40%;
+        left: 5%;
+    }
+
+    .next {
+        top: 40%;
+        right: 5%;
+    }
+
+    .stars {
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .slide,
+    .patrick {
+        height: 450px;
+    }
+
+    .patrick_wrap {
+        height: 450px;
+    }
+
+    .stars {
+        margin-bottom: 0px;
+    }
+
+    .patrick_text {
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+
+    .prev {
+        top: 45%;
+        left: 1%;
+    }
+
+    .next {
+        top: 45%;
+        right: 1%;
+    }
+}

@@ -1,0 +1,110 @@
+.promoution {
+    padding-bottom: 70px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+}
+
+.header_of_promoution {
+    margin-top: 100px;
+
+    width: 100%;
+
+    font-size: 30px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.text_promoution {
+    margin-top: 10px;
+
+    width: 100%;
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.promoution_images {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    width: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+
+
+}
+
+.promoution_images figure {
+    height: 399px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.promoution_images img {
+    width: 300px;
+    height: 300px;
+
+    margin: 0 auto;
+}
+
+.promoution_images figcaption {
+    text-align: center;
+    margin: 0 auto;
+
+    width: 200px;
+}
+
+.promoution_images figcaption>span {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.promoution_images figcaption>div {
+    margin-top: 20px;
+
+    font-size: 14px;
+    color: #999999;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+/* media--------------------------------------------------------------------------------------- */
+@media (max-width: 320px) {
+    .text_promoution {
+        font-size: 14px;
+    }
+}

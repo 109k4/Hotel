@@ -1,0 +1,186 @@
+.navbar {
+    background-color: #ffffff;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+}
+
+.navbar_logo_part {
+    width: 273px;
+    min-width: 273px;
+    height: 83px;
+
+    border-right: solid 1px #f1f1f1;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.navbar_logo_part>a {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+}
+
+.navbar_logo {
+    width: 50px;
+    height: 50px;
+
+    margin-left: 10px;
+}
+
+.navbar_flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.keys_please {
+    color: #333333;
+    font-size: 24px;
+
+    margin-right: 10px;
+}
+
+.phone_number {
+    width: 75%;
+    padding-right: 50px;
+
+    font-size: 16px;
+    color: #333333;
+
+    border-right: solid 1px #f1f1f1;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.phone_number img {
+    margin-right: 5px;
+}
+
+.user {
+    width: 98px;
+    min-width: 98px;
+
+    background: url('../../img/icons/User.svg') center no-repeat;
+}
+
+.user>a {
+    height: 100%;
+    width: 100%;
+
+    display: block;
+}
+
+.navbar_menu {
+    padding-bottom: 4px;
+
+    width: 98px;
+    min-width: 98px;
+    max-width: 98px;
+
+    border-left: solid 1px #f1f1f1;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+
+    position: relative;
+}
+
+.navbar_menu>a {
+    width: 100%;
+    height: 83px;
+
+    display: block;
+    position: absolute;
+}
+
+.menu_elem {
+    margin-top: 4px;
+
+    width: 18px;
+    height: 3px;
+
+    background-color: black;
+}
+
+/* media---------------------------------------------------------------------------------------------------------- */
+@media(max-width:686px) {
+    .phone_number {
+        display: none;
+    }
+
+    .navbar_logo_part {
+        width: 500px;
+    }
+}
+
+@media(max-width:470px) {
+    .navbar_logo_part {
+        min-width: 0px;
+    }
+
+    .keys_please {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:400px) {
+    .navbar_logo_part {
+        height: 50px;
+
+    }
+
+    .keys_please {
+        font-size: 16px;
+    }
+
+    .navbar_logo {
+        width: 35px;
+        height: 35px;
+    }
+
+    .user {
+        width: 50px;
+        min-width: 50px;
+    }
+
+    .navbar_menu {
+        min-width: 50px;
+    }
+
+}

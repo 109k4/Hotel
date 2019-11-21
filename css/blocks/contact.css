@@ -1,0 +1,236 @@
+.contact {
+    padding-top: 111px;
+    padding-bottom: 111px;
+
+    background-color: #f5f5f5;
+
+
+    display: -webkit-box;
+
+
+    display: -ms-flexbox;
+
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.contact_main {
+    margin-top: 95px;
+    width: 98%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+
+}
+
+.contact_header {
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    color: #403023;
+}
+
+.contact_text>div {
+    margin-top: 16px;
+
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+
+    text-align: left;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+}
+
+.contact_text img {
+    height: 16px;
+    width: 16px;
+
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.contact_text span {
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+
+#message,
+.email,
+.name {
+    padding: 25px 25px 25px 25px;
+
+    border: none;
+    border-radius: 3px;
+
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.name,
+.email {
+    width: 380px;
+    height: 55px;
+}
+
+.email {
+    margin-left: 16px;
+}
+
+.contact_text form>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#message {
+    width: 780px;
+    height: 155px;
+
+    padding: 25px 25px 25px 25px;
+    margin-top: 30px;
+
+    border: none;
+    border-radius: 3px;
+
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.send_message {
+    margin-top: 53px;
+    margin-left: 30px;
+}
+
+/* mdeia------------------------------------ */
+@media(max-width:1077px) {
+    .contact_text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+        padding-bottom: 40px;
+    }
+
+    .contact_main {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .contact_main form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        margin-top: 40px;
+    }
+
+
+}
+
+@media(max-width:837px) {
+    #message {
+        width: 80%;
+    }
+
+    .contact_main form>div {
+        width: 80%;
+
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+    }
+}
+
+@media(max-width:653px) {
+
+    .name,
+    .email {
+        width: 47%;
+    }
+
+    .contact_main form>div {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .send_message {
+        margin: 53px auto;
+    }
+
+    .contact {
+        height: 1050px;
+    }
+}
+
+@media(max-width:570px) {
+    .contact_text {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .contact_text>div {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:320px) {
+
+    .name,
+    .email {
+        height: 20px;
+    }
+
+    .send_message {
+        margin: 53px auto;
+    }
+
+}

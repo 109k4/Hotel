@@ -1,0 +1,101 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+button:active, button:focus, a:active, a:focus , input:active, input:focus, textarea:active, textarea:focus {
+    outline: none;
+}
+
+.colored_button {
+    width: 264px;
+    height: 50px;
+    max-height: 50px;
+
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+
+    cursor: pointer;
+    border: none;
+
+    border-radius: 3px;
+    -webkit-filter: drop-shadow(0px 11px 13.5px rgba(154, 49, 188, 0.33));
+            filter: drop-shadow(0px 11px 13.5px rgba(154, 49, 188, 0.33));
+    
+    background-image: linear-gradient(270deg, #43cbd5 0%, #7d81ed 100%);
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.colored_button:hover {
+    -webkit-box-shadow: 1px 1px 10px #43cbd5;
+            box-shadow: 1px 1px 10px #43cbd5;
+}
+
+.colored_button:active {
+   
+    -webkit-box-shadow: inset 2.5px 4.33px 38px rgb(90, 90, 90);
+    box-shadow: inset 2.5px 4.33px 38px rgb(90, 90, 90);
+}
+
+
+
+
+.Montserrat_400 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-align: center;
+}
+
+.Montserrat_300 {
+    font-family: "Montserrat";
+    font-weight: 300;
+    text-align: center;
+}
+
+.Montserrat_700 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+}
+
+.Montserrat_500 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-align: center;
+}
+
+/* media------------------------------------------------------------------------------------- */
+@media(max-width:500px){
+    .h1{
+        font-size: 22px !important;
+    }
+    .h2{
+        font-size: 12px !important;
+    }
+}
+@media(max-width:320px){
+    .colored_button{
+        font-size: 12px;
+
+        width: 200px;
+        height: 45px;
+    }
+    
+}

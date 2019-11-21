@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="79" y1="43.5" x2="30" y2="43.5">
+			<stop offset="0" stop-color="#43cbd5"  />
+			<stop offset="1" stop-color="#7d81ed"  />
+		</linearGradient>
+		<image width="58" height="70" id="img1" href="data:image/png;base64,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"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { mix-blend-mode: luminosity;fill: url(#grd1) } 
+	</style>
+	<g id="Footer">
+		<g id="location">
+			<path id="Ellipse 2" class="shp0" d="M54.5 19C68.03 19 79 29.97 79 43.5C79 57.03 68.03 68 54.5 68C40.97 68 30 57.03 30 43.5C30 29.97 40.97 19 54.5 19Z" />
+			<use id="Layer 8 copy" href="#img1" transform="matrix(0.7,0,0,0.7,35.156,14.989)"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,119 @@
+.services {
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    background-color: #ffffff;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.services_header {
+    font-size: 30px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.services_images {
+    margin-top: 95px;
+
+    width: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services figure>div {
+    height: 100px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.services_span {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.figcaption_div {
+    padding-top: 18px;
+}
+
+.services figure {
+    height: 200px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+
+}
+
+.services figcaption {
+    margin-top: 0px;
+
+    width: 225px;
+
+    font-size: 14px;
+    color: #999999;
+    font-family: "Montserrat";
+    font-weight: 300;
+    text-align: center;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    text-align: center;
+
+}
+
+/* media-------------------------------------------------------------------- */
+@media(max-width:320px) {}

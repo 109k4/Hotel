@@ -1,0 +1,373 @@
+.gallery {
+    padding-bottom: 110px;
+
+    text-align: center;
+}
+
+.gallery_header {
+    margin-top: 100px;
+
+    font-size: 30px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    color: #403023;
+}
+
+.gallery_header_text {
+    margin-top: 10px;
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.images_slider {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    padding-bottom: 55px;
+
+    width: 90%;
+
+    background-color: #f7f7f9;
+
+}
+
+
+.images_part {
+    margin-top: 50px;
+
+    height: 600px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+
+}
+
+.big_image {
+
+    width: 600px;
+    height: 100%;
+
+    background-color: #11766d;
+}
+
+.big_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.little_images {
+    height: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.little_images img {
+    width: 100%;
+    height: 100%;
+}
+
+.little_images>img {
+    width: 320px;
+    height: 237px;
+    background-color: #11766d;
+}
+
+.images_bottom {
+    margin-top: 50px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.images_bottom>div {
+    width: 500px;
+
+    text-align: left;
+}
+
+.images_text_header {
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.images_text {
+    margin-top: 13px;
+
+    width: 50, 8%;
+
+    font-size: 14px;
+    color: #333333;
+    text-align: left;
+}
+
+.images_button {
+    width: 380px;
+    height: 50px;
+    border-radius: 3px;
+    -webkit-filter: drop-shadow(1.5px 2.598px 3.5px rgba(0, 0, 0, 0.02));
+    filter: drop-shadow(1.5px 2.598px 3.5px rgba(0, 0, 0, 0.02));
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+
+    color: #000000;
+
+    font-size: 14px;
+    color: #262626;
+    font-family: "Montserrat";
+    font-weight: 700;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.images_button:hover {
+    -webkit-box-shadow: 1px 1px 15px rgb(179, 179, 179);
+    box-shadow: 1px 1px 15px rgb(179, 179, 179);
+}
+
+.images_button:active {
+    border: none;
+    -webkit-box-shadow: 1px 1px 15px rgb(179, 179, 179), inset 1px 1px 35px rgb(179, 179, 179);
+    box-shadow: 1px 1px 15px rgb(179, 179, 179), inset 1px 1px 35px rgb(179, 179, 179);
+}
+
+
+/* gallery_slider_arrows--------------- */
+.prev_for_gallery {
+    background-color: transparent;
+    border: none;
+
+    height: 100px;
+    width: 50px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 35%;
+    left: 1%;
+
+    z-index: 1;
+}
+
+.next_for_gallery {
+    background-color: transparent;
+    border: none;
+
+    height: 100px;
+    width: 50px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 35%;
+    right: 1%;
+
+    z-index: 1;
+}
+
+/* media--------------------------------------------------------------------------------- */
+@media(max-width:1300px) {
+    .big_image {
+        display: none;
+    }
+
+    .little_images {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+        flex-flow: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        padding-right: 20px;
+    }
+
+    .little_images img {
+        margin-left: 20px;
+    }
+
+    .images_part {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        margin: 0 auto;
+
+        width: 300px;
+        height: 500px;
+    }
+
+
+}
+
+@media(max-width:1080px) {
+
+    .images_bottom {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+
+        width: 50%;
+        height: 200px;
+
+        margin: 0 auto;
+    }
+
+    .images_bottom>div {
+        width: 100%;
+    }
+
+    .images_bottom>div,
+    .images_bottom>a {
+        margin: 0 auto;
+
+        text-align: center;
+    }
+
+    .images_bottom>a {
+        margin-top: 20px;
+    }
+
+
+}
+
+@media(max-width:998px) {
+    .little_images {
+        margin: 0 auto;
+    }
+
+    .little_images>img:last-child {
+        display: none;
+    }
+
+    .little_images img {
+        display: block;
+    }
+}
+
+@media(max-width:858px) {
+
+    .images_button {
+        width: 280px;
+    }
+}
+
+@media(max-width:700px) {
+    .images_bottom {
+        width: 90%;
+    }
+
+    .images_slider {
+        width: 100%;
+    }
+}
+
+@media(max-width:500px) {
+    .little_images img {
+        height: 200px;
+        width: 300px;
+    }
+}
+
+@media(max-width:450px) {
+    .prev_for_gallery {
+        top: 50%;
+        left: 30%;
+    }
+
+    .next_for_gallery {
+        top: 50%;
+        right: 30%;
+    }
+
+    .images_slider {
+        height: 800px;
+
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .images_text {
+
+        text-align: center;
+    }
+
+    .images {
+        height: 500px;
+    }
+
+
+}
+
+@media(max-width:436px) {
+    .images_bottom {
+        width: 99%;
+        height: 250px;
+    }
+
+}
+
+@media(max-width:320px) {
+    .images_text_header {
+        font-size: 16px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .images_text {
+        font-size: 12px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .gallery_slider {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+}
