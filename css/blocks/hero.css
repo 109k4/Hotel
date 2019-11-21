@@ -121,6 +121,8 @@
 .accordions>div {
     height: 108px;
     width: 163px;
+
+    margin: 0px 10px 0px 10px;
 }
 
 
