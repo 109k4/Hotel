@@ -39,39 +39,53 @@
             </div>
             <div class="hero_bottom">
                 <div class="hero_bottom_header">SEARCH YOUR ROOM</div>
-                <div class="hero_bottom_main">
-                    <div class="accordions">
-                        <div>
-                            <span>ARRIVAL DATE</span>
-                            <input type="date" id="arrival_date"  name="arrival_date" placeholder="Arrival">
-                        </div>
-                        <div>
-                            <span>DEPARTURE DATE</span>
-                            <input type="date" id="departure_date" name="departure_date" placeholder="Departure">
-                        </div>
-                        <div>
-                            <span>ADULTS</span>
-                               <select name="Adults"  id="adults">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                               </select>
-                        </div>
-                        <div>
-                            <span>CHILDREN</span>
-                               <select name="Children"  id="children">
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                               </select>
-                        </div>
-                    </div>
-                    <input type="submit" value="CHECK AVAILABILITY" href="#" class="colored_button hero_botton">
-                </div>
+                <form action="">
+                        <div class="hero_bottom_main">
+                                <div class="accordions">
+                                    <div>
+                                        <span>ARRIVAL DATE</span>
+                                        <div>
+                                            <input type="date" id="arrival_date"  name="arrival_date" placeholder="Arrival">
+                                            <img src="img/icons/calendar.png" class="calendar"></img>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span>DEPARTURE DATE</span>
+                                        <div>
+                                            <input type="date" id="departure_date" name="departure_date" placeholder="Departure">
+                                            <img src="img/icons/calendar.png" class="calendar"></img>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span>ADULTS</span>
+                                        <div>
+                                                <select name="Adults"  id="adults" class="adults">
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                        <option value="4">4</option>
+                                                        <option value="5">5</option>
+                                                   </select>
+                                            <div class="drop-down-arrow"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span>CHILDREN</span>
+                                            <div>
+                                                    <select name="Children"  id="children" class="children">
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                       </select>
+                                                <div class="drop-down-arrow"></div>
+                                            </div>
+                                    </div>
+                                </div>
+                                <input type="submit" value="CHECK AVAILABILITY" href="#" class="colored_button hero_botton">
+                            </div>
+                </form>
             </div>
         </header>
     </div>
@@ -398,12 +412,6 @@
                     </figcaption>
                 </figure>
             </div>
-        </section>
-    </div>
-    <!-- map -->
-    <div class="container">
-        <section class="map">
-            <img src="img/icons/map_icon.svg" alt="">
         </section>
     </div>
     <!-- contact -->

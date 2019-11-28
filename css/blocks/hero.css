@@ -124,13 +124,14 @@
 
     margin: 0px 10px 0px 10px;
 }
-
+.accordions>div>div{
+    position: relative;
+}
 
 #adults,
 #children,
 #arrival_date,
-#departure_date,
-#shit {
+#departure_date {
     margin-top: 25px;
     padding-left: 8px;
 
@@ -138,6 +139,9 @@
     width: 170px;
     
     cursor: pointer;
+    border: 0;
+    border-bottom: solid 2px #d1d1d1;
+    -webkit-appearance: none;
 
     display: -webkit-box;
 
@@ -155,14 +159,32 @@
     color: #919191;
     font-family: "Montserrat";
     font-weight: 300;
+
+    background-color: transparent;
 }
+
 .accordions span {
     font-size: 14px;
     color: #333333;
     font-family: "Montserrat";
     font-weight: 700;
 }
+.drop-down-arrow{
+    border-style: solid;
+    border-width: 6px 5px 0px 5px;
+    border-color: #d1d1d1 transparent transparent transparent;
 
+    z-index: -1;
+    position: absolute;
+    top: 15px;
+    right: 2px;
+}
+.calendar{
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    right: 2px;
+}
 
 
 /* media----------------------------------------------------------------------------------------------- */
