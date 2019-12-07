@@ -21,11 +21,12 @@
     color: #333333;
 }
 
-.images_slider {
+.images {
     margin-left: auto;
     margin-right: auto;
     margin-top: 120px;
     padding-bottom: 55px;
+    padding-top: 55px;
 
     width: 90%;
 
@@ -35,9 +36,10 @@
 
 
 .images_part {
-    margin-top: 50px;
+    margin: 0 auto;
 
     height: 600px;
+    width: 95%;
 
     display: -webkit-box;
 
@@ -94,7 +96,9 @@
 }
 
 .images_bottom {
-    margin-top: 50px;
+    margin: 50px auto 0px auto;
+
+    width: 90%;
 
     display: -webkit-box;
 
@@ -102,7 +106,7 @@
 
     display: flex;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .images_bottom>div {
@@ -129,6 +133,8 @@
 }
 
 .images_button {
+    margin: auto 0;
+
     width: 380px;
     height: 50px;
     border-radius: 3px;
