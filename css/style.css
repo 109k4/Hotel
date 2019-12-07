@@ -2,6 +2,11 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+body{
+    background-image: url('../img/images/body_background.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+}
 a {
     text-decoration: none;
 }

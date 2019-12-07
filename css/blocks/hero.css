@@ -20,6 +20,8 @@
     -webkit-box-direction: normal;
     -ms-flex-flow: column;
     flex-flow: column;
+
+    position: relative;
 }
 
 .luxary_hotel {
@@ -46,7 +48,8 @@
 }
 
 .hero_bottom {
-    margin-top: -45px;
+    margin-top: 950px;
+
     margin-right: auto;
     margin-left: auto;
 
@@ -70,6 +73,8 @@
     flex-flow: column;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+
+    position: absolute;
 }
 
 .hero_bottom_header {
@@ -256,12 +261,26 @@
         width: 85%
     }
 }
-
-@media (max-width: 637px) {
-    .accordions>div {
-        margin-left: auto;
-        margin-right: auto;
+@media (max-width:714px) {
+    .hero_bottom{
+        margin-top: 1200px;
     }
+    .hero_bottom_main {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .accordions {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+
+        height: 500px;
+    }
+    
 }
 @media (max-width: 561px) {
     .luxary_hotel{
@@ -292,21 +311,7 @@
         margin-top: 30px;
     }
 
-    .hero_bottom_main {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-        flex-flow: column;
-    }
-
-    .accordions {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-        flex-flow: column;
-
-        height: 500px;
-    }
+    
 
     .hero_bottom>div>div {
         background-color: #fff;
@@ -322,6 +327,7 @@
 @media (max-width: 350px) {
     .hero{
         height: 520px;
+       
     }
 
     .luxary_hotel {
@@ -344,7 +350,7 @@
         width: 95%;
         height: 600px;
 
-        margin-top: 0px;
+        margin-top: 1000px;
     }
 
     .accordions {
